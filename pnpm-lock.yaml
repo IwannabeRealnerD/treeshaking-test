@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  flowbite-react-icons:
+    specifier: ^1.0.7
+    version: 1.0.7(react-dom@18.3.1)(react@18.3.1)
   next:
     specifier: 14.2.3
     version: 14.2.3(react-dom@18.3.1)(react@18.3.1)
@@ -1233,6 +1236,16 @@ packages:
   /flatted@3.3.1:
     resolution: {integrity: sha512-X8cqMLLie7KsNUDSdzeN8FYK9rEt4Dt67OsG/DNGnYTSDBG4uFAJFBnUeiV+zCVAvwFy56IjM9sH51jVaEhNxw==}
     dev: true
+
+  /flowbite-react-icons@1.0.7(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-LeTxRydKsaiBpx7/6LxkI6oHo3nuxjddy9RfxBUqViyxEkXWjBTgdoXmnMIxXVO91D9ps/0MQN6KUEb6EpvhSg==}
+    peerDependencies:
+      react: '>=16'
+      react-dom: '>=16'
+    dependencies:
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    dev: false
 
   /for-each@0.3.3:
     resolution: {integrity: sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==}
